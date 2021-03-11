@@ -16,5 +16,28 @@ var pattern = new RegExp('a');
 
 ### 정규표현식 메소드 실행 
 
+```javascript
+var pattern = /a/;
+pattern.exec('abcde');
+>>>>>>["a"]
 
+var pattern = /a./;
+pattern.exec('abcde');
+>>>>>>["ab"]
+```
+
+```javascript
+var pattern = /a/'
+pattern.exec('bcdef'); //찾아서 있다면 리턴해주는 함수 
+>>>>>null
+
+pattern.text('abcde'); 
+>>>>>true
+pattern.text('bcde');
+>>>>>false
+```
+
+.exec &gt;&gt;&gt;추
+
+.text &gt;&gt;&gt;&gt; 불린값 테스트 
 
