@@ -41,3 +41,39 @@ pattern.text('bcde');
 
 .text &gt;&gt;&gt;&gt; 불린값 테스트 
 
+
+
+### string.match\(\)
+
+```javascript
+var pattern = /a/;
+var str = 'abcdef';
+str.match(pattern);
+
+>>>>>["a"]
+```
+
+### string.replace\(\)
+
+```javascript
+console.log('abcdef'.replace(pattern, 'A'));  // Abcdef
+```
+
+## i 를 붙이면 대소문 구분하지 않는다. 
+
+```javascript
+var xi = /a/;
+console.log("Abcde".match(xi)); // null
+var oi = /a/i;
+console.log("Abcde".match(oi)); // ["A"];
+```
+
+## g 를 붙이면 검색된 모든 결과를 리턴한다. 
+
+```javascript
+var xg = /a/;
+console.log("abcdea".match(xg));
+var og = /a/g;
+console.log("abcdea".match(og));
+```
+
