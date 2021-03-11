@@ -10,7 +10,7 @@ description: 17. 조건문 ~  25. 반복문
 
 불린은 true와 false 두가지 밖에 없다. 
 
-```text
+```javascript
 if(true){
     alert('result : true');
 }
@@ -18,7 +18,7 @@ if(true){
 
 ## else 
 
-```text
+```javascript
 if(true){
     alert(1);
 } else {
@@ -28,7 +28,7 @@ if(true){
 
 1이 출
 
-```text
+```javascript
 if(false){
     alert(1);
 } else {
@@ -40,7 +40,7 @@ if(false){
 
 ## else if 
 
-```text
+```javascript
 if(false){
     alert(1);
 } else if(true){
@@ -60,7 +60,7 @@ if(false){
 
 말 그대로 비교해서  값을 true 혹은 false 로 구분 
 
-```text
+```javascript
 ==
     동등 연산자. 좌향과 우향을 비교해
     서로 값이 같다면 true, 
@@ -88,13 +88,13 @@ true와 false는 Boolean의 데이터 타입.
 
 ### prompt  
 
-```text
+```javascript
 promprt('당신의 나이는 ?')
 
 alert(prompt('당신의 나이는')); 
 ```
 
-```text
+```javascript
 var id = prompt('아이디를 입력해주세요.');
 if(if=='egoing'){
 alert('아이디가 일치 합니다.');
@@ -105,7 +105,7 @@ alert('아이디가 일치하지 않습니다.');
 
 ### 조건문의 중첩 
 
-```text
+```javascript
 <script>
         id = prompt('아이디를 입력해주세요.');
         if(id=='egoing'){
@@ -125,7 +125,7 @@ alert('아이디가 일치하지 않습니다.');
 
 &&  ---  and 연산자  두개 이상의 불린값을 하나로 조합가능 
 
-```text
+```javascript
 var id = prompt('아이디를 입력해주세요.');
 var password = prompt("비밀번호를 입력해주세요");
 if(id == 'leewoobi' && password ==='00'){
@@ -139,7 +139,7 @@ if(id == 'leewoobi' && password ==='00'){
 
 둘중 하나만 참이어도 가능 
 
-```text
+```javascript
 if(true || true){
     alert(1);
 }
@@ -147,7 +147,7 @@ if(true || true){
 
 ### !는 부정 not 불린값을 반전시킨다. 
 
-```text
+```javascript
 if(!true && !true){
     alert(1);
 }
@@ -157,7 +157,7 @@ if(!true && !true){
 
 ### 기타 false로 간주되는 데이터 형
 
-```text
+```javascript
 if(!''){
     alert('빈 문자열')
 }
@@ -180,7 +180,7 @@ if(!NaN){
 
 ### while문 \(뭐시 복잡해 보통은 for 문을 쓴다고 함 \)
 
-```text
+```javascript
 while (조건){
     반복해서 실행할 코드
 }
@@ -188,7 +188,7 @@ while (조건){
 
 언제까지 실행 시킬거냐  적당한  시점에서 false로 바꿔주기 
 
-```text
+```javascript
 var i = 0;
 // 종료조건으로 i의 값이 10보다 작다면 true, 같거나 크다면 false가 된다.
 while(i < 10){
@@ -203,7 +203,7 @@ while(i < 10){
 
 ## for문 \(while문 보다 가독성이 좋음\)
 
-```text
+```javascript
 for(var i = 0; i < 10; i++){
     document.write('coding everybody'+i+'<br />');
 }
