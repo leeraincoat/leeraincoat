@@ -5,8 +5,5 @@
 * [조건문,반복문](untitled-1.md)
 * [배열](undefined.md)
 * [객체](undefined-1.md)
-
-## javascript
-
-* [Untitled](javascript/untitled.md)
+* [정규표현식](undefined-2.md)
 
