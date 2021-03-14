@@ -67,6 +67,8 @@ console.log(a1.introduce())
 console.log(a1.coding())
 ```
 
+## prototype
+
 생성자 &gt;&gt;&gt; 함수, 
 
  함수를 호출할때 new로 표기하면  생성자 함수
