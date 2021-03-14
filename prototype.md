@@ -67,5 +67,29 @@ console.log(a1.introduce())
 console.log(a1.coding())
 ```
 
+생성자 &gt;&gt;&gt; 함수, 
+
+ 함수를 호출할때 new로 표기하면  생성자 함수
+
+ 어떤 객체를 만들때 객체의 메서드,프로퍼티를 가져올려고
+
+여러방식을 거쳐 귀찮다 못해 생겨난 방식으로 
+
+개발자의 영역은  불편충들 덕분에 나날이 발전하는게 아닌가 싶다. 
+
+```javascript
+function Ultra(){}
+Ultra.prototype.ultraProp = true;
+ 
+function Super(){}
+Super.prototype = new Ultra();
+ 
+function Sub(){}
+Sub.prototype = new Super(); //Super.prototype(사용x)사용하면 상속자에도 영향미
+ 
+var o = new Sub();
+console.log(o.ultraProp); //결과는  true
+```
+
 
 
