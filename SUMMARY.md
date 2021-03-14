@@ -17,5 +17,5 @@
 * [표준내장객체의 확장](undefined-6.md)
 * [php](php.md)
 * [상속, prototype](prototype.md)
-* [Object](object.md)
+* [Object,재귀함수](object.md)
 
