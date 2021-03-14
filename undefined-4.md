@@ -8,7 +8,7 @@
 
 함수는 값이기 때문에 다른 함수의 인자로 전달 될수도 있다. 아래 예제를 보자.
 
-```text
+```javascript
 a = {
     b:function(){
     }
@@ -17,7 +17,7 @@ a = {
 
 함수는 함수의 리턴 값으로도 사용할 수 있다.
 
-```text
+```javascript
 function cal(mode){
     var funcs = {
         'plus' : function(left, right){return left + right},
@@ -31,7 +31,7 @@ alert(cal('minus')(2,1));
 
 당연히 배열의 값으로도 사용할 수 있다.
 
-```text
+```javascript
 var process = [
     function(input){ return input + 10;},
     function(input){ return input * input;},

@@ -9,30 +9,30 @@ description: 25~50
 * 객체는 중괄호로 시작해서 중괄호로 끝난다.
 * 객체는 키와 벨류로 구분된다. {'egoing': 10 } 앞이 키 뒤과 벨
 
-```text
+```javascript
 var grades = {'egoing': 10, 'k8805': 6, 'sorialgi': 80};
 ```
 
-```text
+```javascript
 var grades = {};grades['egoing'] = 10;grades['k8805'] = 6;grades['sorialgi'] = 80;
 ```
 
-```text
+```javascript
 var grades = new Object();grades['egoing'] = 10;grades['k8805'] = 6;grades['sorialgi'] = 80;
 ```
 
-```text
+```javascript
 var grades = {'egoing': 10, 'k8805': 6, 'sorialgi': 80};alert(grades['sorialgi']);
 ```
 
 ## 객체와 반복문의 만남 \(for in 문 \) <a id="for-in"></a>
 
-```text
+```javascript
 var grades = {'egoing': 10, 'k8805': 6, 'sorialgi': 80};for(key in grades) {    document.write("key : "+key+" value : "+grades[key]+"
 ");}
 ```
 
-```text
+```javascript
 key :   egoing value : 10key :   k8805 value : 6key :   sorialgi value : 80
 ```
 
@@ -40,7 +40,7 @@ key :   egoing value : 10key :   k8805 value : 6key :   sorialgi value : 80
 
 객체에는 객체를 담을 수 도 있고 함수도 담을 수 있다.
 
-```text
+```javascript
 var grades = {    'list': {'egoing': 10, 'k8805': 6, 'sorialgi': 80},    'show' : function(){        for(var name in this.list){            document.write(name+':'+this.list[name]+"
 ");        }    }};grades.show();
 ```
@@ -66,7 +66,7 @@ this는 소유하고 있는 객체를 가리키는 변수를 말한다.
 
 ### 정규표현식 객체 생성자 <a id="undefined-3"></a>
 
-```text
+```javascript
 var pattern = new RegExp('a');
 ```
 
