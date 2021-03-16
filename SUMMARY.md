@@ -11,7 +11,6 @@
 * [클로저](undefined-5.md)
 * [Private Variable](private-variable.md)
 * [arguments](arguments.md)
-* [Untitled](untitled.md)
 * [생성자 , new](new.md)
 * [This](this.md)
 * [표준내장객체의 확장](undefined-6.md)
