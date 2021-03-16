@@ -56,6 +56,24 @@ if(false){
 
 안나옴. 만약 2가 실행 안되면 3이 나오겠다.   예시를 위해 만들어진 것일 뿐 . 이건 조건문이라 하기 애매하고  실용성이 없다 .
 
+## 노마드 코더 \#2-7
+
+```javascript
+const title = document.querySelector("#title");
+
+const CLICKED_CLASS = "clicked";
+
+function handleClick() {
+title.classList.toggle(CLICKED_CALSS);
+}
+//if 문으로 add / remove 도 가능 
+
+function init(){
+ title.addEventListener("click",handClick);
+}
+init();
+```
+
 ## 비교 연산자 
 
 말 그대로 비교해서  값을 true 혹은 false 로 구분 
