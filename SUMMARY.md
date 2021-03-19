@@ -21,5 +21,6 @@
 
 ## Nomard
 
+* [함수](nomard/undefined-1.md)
 * [변수](nomard/undefined.md)
 
