@@ -29,13 +29,39 @@ var hoisting \(move declaration from bottom to top\)
 
 
 
-Number 
+### 1.Number 
 
-String 
+### 2.String 
 
-템플릿 리터럴 
+#### \(템플릿 리터럴 \)
 
 ```javascript
 `${변수 }`
 ```
+
+### 3.boolean \(true , false \)
+
+
+
+### 4.null && undefined
+
+
+
+### 5.symbol
+
+
+
+## Dynamic typing 
+
+자 바스크립트는 유연한 언어임 코딩할떄 타입을 지정하는것이 아닌 
+
+런타임에서 타입이 정해진다. 그래서 에러가 발생하는 경우가 잦다.
+
+그래서 타입스크립트 
+
+
+
+## object
+
+
 
