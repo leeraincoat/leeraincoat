@@ -27,5 +27,5 @@
 
 ## Dreamcoding
 
-* [async  defer](dreamcoding/untitled.md)
+* [async ,defer, use strict](dreamcoding/untitled.md)
 
