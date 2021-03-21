@@ -28,4 +28,5 @@
 ## Dreamcoding
 
 * [async ,defer, use strict](dreamcoding/untitled.md)
+* [data Types, let vs , hosting](dreamcoding/data-types-let-vs-hosting.md)
 
