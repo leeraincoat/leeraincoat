@@ -68,3 +68,12 @@ const simpleMultiply = (a,b) => {
 }
 ```
 
+## 5.IIFE
+
+```javascript
+immediately Invoke Function Expression
+(function hellow() {
+ console.log('IIFE');
+})();
+```
+
