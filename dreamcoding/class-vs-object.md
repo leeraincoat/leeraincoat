@@ -68,7 +68,7 @@ const user1 = new User('steve','job',-1);
  
 ```
 
-## 3. Fields  \(public, private\)
+## 3. Fields  \(public, private\) 
 
 ```javascript
 class Experiment {
@@ -78,5 +78,8 @@ class Experiment {
 const experiment = new Experiment();
 console.log(experiment.publicField);
 console.log(experiment.privateField);
+
+//넘나리 최신 문법이라 지원이 안된데 
+// 그럼 왜 알려주는거냐. 
 ```
 
