@@ -55,3 +55,45 @@ const postIncrement = counter++;
 
 ## 4. \|\| \(or\) ,  && \(and\)  , !\(not\)
 
+
+
+## 5. Equality
+
+```javascript
+const stringFive = '5';
+const numberFive = 5;
+
+// == loose equaltiy, with type conversion 내용물이 같냐  
+console.log(stringFive == numberFive);
+console.log(stringFive != numberFive);
+
+//=== strict equality, no type conversion  타입 까지 같냐 
+console.log(stringFive === numberFive);
+console.log(stringFive !== numberFive);
+```
+
+## 6. Conditional operators : IF 
+
+### if , else if , else 
+
+```javascript
+const name = 'df';
+if(name = 'df'){
+console.log('Welcome,Ellie');
+}else if (name === 'coder'){
+console.log('you are amazing coder');
+}else {
+  console.log('unknown')
+}
+```
+
+## 7. Ternary operator : ?
+
+```javascript
+console.log(name === 'ellie' ? 'yes' : 'no') ;
+```
+
+## 8.switch statement 
+
+## 
+
