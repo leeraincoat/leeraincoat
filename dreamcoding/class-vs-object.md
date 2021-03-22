@@ -83,3 +83,20 @@ console.log(experiment.privateField);
 // 그럼 왜 알려주는거냐. 
 ```
 
+## 4.static \(듣긴 했는데 최신문법이라 주저리 어쩌리 . 궁금하면 
+
+## 영상 다시보자꾸나 \)
+
+
+
+## 5.inheritance 
+
+```javascript
+class 뉴블라블라 extends 올드블라블라 {}  
+// 상속해줌  
+```
+
+
+
+
+
