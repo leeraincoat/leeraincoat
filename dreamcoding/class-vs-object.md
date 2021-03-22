@@ -98,5 +98,12 @@ class 뉴블라블라 extends 올드블라블라 {}
 
 
 
+## 6.instanceof
 
+```javascript
+console.log(rectangle instabceof Rectangle); 
+//checking true or false
+```
+
+[https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference)
 
