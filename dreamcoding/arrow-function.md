@@ -46,5 +46,25 @@ function randomQuiz(answer, printYes, printNO){
 }
 ```
 
+## 4.arrow function
 
+```javascript
+//always anonymous
+const simplePrint = function  () {
+    console.log('simplePrint!');
+};
+
+const simplePrint = () => console.log('simplePrint!');
+const add = function (a,b) {
+ return a + b;
+};
+
+const add = (a.b) => a+b;
+
+const simpleMultiply = (a,b) => {
+ //do some thing more
+ return a*b;   
+ //return!!!!
+}
+```
 
