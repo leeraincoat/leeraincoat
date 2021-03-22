@@ -31,8 +31,5 @@
 * [data Types, let vs , hosting](dreamcoding/data-types-let-vs-hosting.md)
 * [operator, if ,for ,loop](dreamcoding/operator-if-for-loop.md)
 * [arrow Function](dreamcoding/arrow-function.md)
-
----
-
-* [Class Vs Object](class-vs-object.md)
+* [Class Vs Object](dreamcoding/class-vs-object.md)
 
