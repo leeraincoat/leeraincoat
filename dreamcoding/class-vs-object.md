@@ -68,5 +68,15 @@ const user1 = new User('steve','job',-1);
  
 ```
 
+## 3. Fields  \(public, private\)
 
+```javascript
+class Experiment {
+    publicField = 2;
+    #privateField = 0;
+}
+const experiment = new Experiment();
+console.log(experiment.publicField);
+console.log(experiment.privateField);
+```
 
