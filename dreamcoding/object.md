@@ -38,5 +38,23 @@ function Person(name, age ) {
     //return  this;
 }
 
+//5. in operator: property existence check (key in ob)
+console.log('name' in ellie);
+
+//6. for..in vs for.. of 
+//for (key in obj)
+for ( key in ellie ) {
+    console.log(key);
+}
+
+//for (value of iterable)
+const array = [1,2,3,4,];
+for ( let i = 0; i < array.length; i++){
+console.log(array[i]);
+}
+
+for(value of array) {
+     console.log(value);
+}
 ```
 
