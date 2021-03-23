@@ -1,4 +1,4 @@
-# 10 way  function of array
+# function of array
 
 ## split
 
