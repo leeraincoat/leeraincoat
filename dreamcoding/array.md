@@ -22,7 +22,7 @@ console.log(fruits[i]);
 }
 
 //c.forEach
-fruits.forEach()
+fruits.forEach((fruit) => console.log(fruit));
 
 
 
