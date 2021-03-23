@@ -1,5 +1,18 @@
 # function of array
 
+## 
+
+1. join
+2. split
+3. reverse
+4. slice
+5. find
+6. filter
+7. map
+8. some , every
+9. reduce
+10. api blend
+
 ## split
 
 ```javascript
