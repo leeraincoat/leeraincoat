@@ -39,3 +39,22 @@ const result = students.find((student) =>
 
 ```
 
+map
+
+```javascript
+//make an array containing only the students' scores
+//result should be: [45,80,90,66,88]
+{
+    const result = students.map((student) => student);
+    console.log(result);
+}
+{
+    const result = students.map((student) => student.score);
+    console.log(result);
+}
+{
+    const result = students.map((student) => student.score * 2);
+    console.log(result);
+}
+```
+
