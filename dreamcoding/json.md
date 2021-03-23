@@ -18,5 +18,14 @@ XML
 * the network connection
 * independent programming language and platform 
 
-### object &lt;&lt;&lt; string \(json\) \|\|\|\|\|\|\|\|\|\|\|  object &gt;&gt;&gt;  string \(json\)
+### object &lt;&lt;&lt; string \(json\) \|\|\|\|\|\|\|\|\|\|\|  object &gt;&gt;&gt;  string \(json\) 
+
+```javascript
+//1. Object to JSON
+//stringfy(obg)
+
+
+//2. JOSM to Object
+//parse(json)
+```
 
