@@ -34,7 +34,7 @@
 * [object](dreamcoding/object.md)
 * [Array](dreamcoding/array.md)
 * [10 ways function of array](dreamcoding/10-way-function-of-array.md)
-* [json](dreamcoding/json.md)
+* [Json](dreamcoding/json.md)
 
 ## php <a id="php-1"></a>
 
