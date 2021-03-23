@@ -32,7 +32,8 @@ const result = students.find(function (student,index){
 }
 {
 const result = students.find((student) =>
- student.score === 90; 
+ student.score === 90;
+ ); 
   console.log(result);  
 }
 
