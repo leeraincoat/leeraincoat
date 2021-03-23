@@ -18,3 +18,5 @@ XML
 * the network connection
 * independent programming language and platform 
 
+### object &lt;&lt;&lt; string \(json\) \|\|\|\|\|\|\|\|\|\|\|  object &gt;&gt;&gt;  string \(json\)
+
