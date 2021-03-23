@@ -23,5 +23,15 @@ new Student ('D',40, false, 66),
 new Student ('E',18, true, 88),
 ];
 
+//find a student with the score 90
+{
+const result = students.find(function (student,index){
+  return student.score === 90;
+  });
+  console.log(result);  
+}
+
+
+
 ```
 
