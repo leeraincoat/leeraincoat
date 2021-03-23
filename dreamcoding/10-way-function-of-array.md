@@ -1,4 +1,4 @@
-# function of array
+# 10 ways function of array
 
 ## 
 
