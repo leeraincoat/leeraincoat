@@ -32,6 +32,7 @@
 * [arrow Function](dreamcoding/arrow-function.md)
 * [Class Vs Object](dreamcoding/class-vs-object.md)
 * [object](dreamcoding/object.md)
+* [Array](dreamcoding/array.md)
 
 ## php <a id="php-1"></a>
 
