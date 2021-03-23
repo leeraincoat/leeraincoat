@@ -12,7 +12,7 @@
 }
 ```
 
-find
+## find
 
 ```javascript
 const students = [
