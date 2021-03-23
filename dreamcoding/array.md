@@ -13,6 +13,16 @@ const fruits = ['apple','banana'];
 console.log(fruits);
 console.log(fruits[0]);
 
+//3. Looping over an array
+//print all fruits 
+//a. for
+
+for (let i = 0; i < fruits.length; i++) {
+console.log(fruits[i]);
+}
+
+//c.forEach
+fruits.forEach()
 
 
 
