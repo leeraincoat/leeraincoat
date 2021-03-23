@@ -74,6 +74,9 @@ const user4 =
 Object.assign({},user);
 console.log(user4);
 
+const user4 = Object.assign({},user);
+console.log(user4);
+
 
 ```
 
