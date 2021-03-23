@@ -1,0 +1,27 @@
+# 10 way  function of array
+
+## split
+
+```javascript
+//make an array out of a string
+{
+     const fruits = 'apple,banan,cherry';
+     const result = fruits.split(,);
+     console.log(result);
+    
+}
+```
+
+find
+
+```javascript
+const students = [
+new Student ('A',29, true, 45),
+new Student ('B',28, false, 80),
+new Student ('C',30, true, 90),
+new Student ('D',40, false, 66),
+new Student ('E',18, true, 88),
+];
+
+```
+

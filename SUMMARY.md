@@ -33,6 +33,7 @@
 * [Class Vs Object](dreamcoding/class-vs-object.md)
 * [object](dreamcoding/object.md)
 * [Array](dreamcoding/array.md)
+* [10 way  function of array](dreamcoding/10-way-function-of-array.md)
 
 ## php <a id="php-1"></a>
 
