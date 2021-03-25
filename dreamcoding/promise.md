@@ -1,5 +1,7 @@
 # promise
 
+callback 지옥은 프로미스로 해결 
+
 ```javascript
 //Promise is a javascript object for asynchronous operation
 //state: pending ->> fulfilled or refected
