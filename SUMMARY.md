@@ -36,6 +36,7 @@
 * [10 ways function of array](dreamcoding/10-way-function-of-array.md)
 * [Json](dreamcoding/json.md)
 * [callback](dreamcoding/callback-hell.md)
+* [promise](dreamcoding/promise.md)
 
 ## php <a id="php-1"></a>
 
