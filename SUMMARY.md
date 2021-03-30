@@ -47,5 +47,5 @@
 
 ## ZEROCHO
 
-* [Untitled](zerocho/untitled.md)
+* [끝말잇기](zerocho/untitled.md)
 
