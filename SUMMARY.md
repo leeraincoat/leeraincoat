@@ -48,4 +48,5 @@
 ## ZEROCHO
 
 * [끝말잇기](zerocho/untitled.md)
+* [별찍기](zerocho/undefined.md)
 
