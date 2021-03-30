@@ -8,7 +8,7 @@
 var question = "돈까스"
 
 while(true){
-    var answer = (prompt(question));
+    var answer = prompt(question);
     if(answer[0] === question[question.length -1]){
         question = answer;
         console.log('딩동댕!!');
