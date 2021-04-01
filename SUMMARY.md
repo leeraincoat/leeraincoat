@@ -51,4 +51,5 @@
 * [별찍기](zerocho/undefined.md)
 * [구구단](zerocho/undefined-2.md)
 * [객체](zerocho/undefined-1.md)
+* [틱택톡](zerocho/undefined-3.md)
 
