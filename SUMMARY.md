@@ -47,6 +47,7 @@
 
 ## ZEROCHO
 
+* [로또추첨](zerocho/undefined-4.md)
 * [끝말잇기](zerocho/untitled.md)
 * [별찍기](zerocho/undefined.md)
 * [구구단](zerocho/undefined-2.md)
